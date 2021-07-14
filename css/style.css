@@ -1,0 +1,60 @@
+body {
+  background-color: #0a0c1b;
+}
+
+.container {
+  width: 1440px;
+  height: 100vh;
+  position: relative;
+}
+
+.container .big-wrapper {
+  background-color: #1c1938;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.big-wrapper img {
+  width: 100%;
+}
+
+.text .wrapper {
+  color: white;
+  width: 350px;
+  /* padding: 0 80px; */
+}
+
+.text .wrapper h2, h3, p{
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: bold;
+}
+
+.text .wrapper p {
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.text .wrapper span {
+  color: #a25ed7;
+}
+
+.text .data {
+  padding-right: 20px;
+}
+
+.box h3 {
+  font-size: 24px;
+  margin: 0;
+}
+
+
+.attribution { 
+  font-size: 11px; 
+  text-align: center; 
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+}
+.attribution a { color: hsl(228, 45%, 44%); }
